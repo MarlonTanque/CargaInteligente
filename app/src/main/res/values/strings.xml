@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Carga Inteligente</string>
+    <string name="titulo_app">Panel de información</string>
+    <string name="mensaje_inicial">Los datos iniciales están listos.</string>
+    <string name="accion_actualizar">Actualizar datos</string>
+    <string name="estado_cargando">Cargando información…</string>
+    <string name="estado_actualizado">Información actualizada correctamente.</string>
+</resources>

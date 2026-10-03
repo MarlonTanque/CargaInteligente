@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/app_surface">
+
+<LinearLayout
+android:id="@+id/panelContenido"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:orientation="vertical"
+android:padding="32dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/titulo_app"
+    android:textColor="@color/app_text"
+    android:textSize="26sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/txtEstado"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:gravity="center"
+    android:text="@string/mensaje_inicial"
+    android:textColor="@color/app_text"
+    android:textSize="16sp" />
+
+<Button
+    android:id="@+id/btnActualizar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:text="@string/accion_actualizar" />
+
+</LinearLayout>
+
+<LinearLayout
+android:id="@+id/panelCarga"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/app_surface"
+android:clickable="true"
+android:focusable="true"
+android:gravity="center"
+android:orientation="vertical"
+android:visibility="gone">
+
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:indeterminate="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/estado_cargando"
+    android:textColor="@color/app_text"
+    android:textSize="16sp" />
+
+</LinearLayout>
+
+    </FrameLayout>
